@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!--Tailwind css & daisyud -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!--font Lato-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<!--font famaly styles-->
+<style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+    }
+</style>
+<!--Customize color-->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body class="font-lato">
+    <header>
+<nav class="">
+    <div class="flex bg-[#F85559] rounded-full w-4/6 h-28 mt-2 gap-4 items-center justify-center space-x-12 ">
+       
+       <div class="flex gap-5">
+        <h3 class="flex">
+            Home
+        </h3>
+        <h3 class="flex">
+            About Us
+        </h3>
+        <h3 class="flex">
+            Shop
+        </h3>
+        <h3 class="flex">
+            All Fruits
+        </h3>
+       </div>
+       <div class=" flex items-center gap-2">
+        <img src="images/logo.png" alt="">
+        <h2 class="font-bold text-4xl text-[#FFF]">Fruit Burst</h2>
+     </div>
+        <div>
+            <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+        </div>
+
+    </div> 
+</nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
